@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar{
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* User Details Section */
+.userDetails{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 1vh;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+}
+.userImage{
+  height: 8vh;
+  width: 8vh;
+  border-radius: 50%;
+  background-color: aqua;
+}
+.userName{
+  width: fit-content;
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* Navigation Link Section */
+.navigation{
+  margin-right: 20px;
+}
+.navigation li{
+  display: inline;
+  margin-right: 20px;
+}
+
+/* HomePage Hero Section */
+.homePage{
+  height: fit-content;
+  background: linear-gradient(to right, rgba(245, 245, 245, .8), rgba(245, 245, 245, .8)),
+      url(./Images/background.svg);
+  background-position: center;
+}
+
+.hero{
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.socialmedia{
+  width: 4vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 0;
+  margin-top: 15vh;
+  /* background-color: bisque; */
+}
+.github,.linkedin,.twitter,.email,.phone{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: aquamarine;
+}
+
+.mainContent{
+  height: 86vh;
+  width: 96vw;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.heroTitle{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroTitle h1{
+  font-weight: 800;
+  font-size: 60px;
+}
+.heroText{
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+}
+.mainContent Button{
+  width: 15%;
+  height: 50px;
+  margin-left: 42.5%;
+  margin-top: 80px;
+  background-color: darkgreen;
+  color: goldenrod;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* About Page */
+.aboutPage{
+  height: fit-content;
+  margin-bottom: 100px;
+}
+
+.aboutTitle{
+  width: 70vw;
+  margin-left: 15vw;
+  margin-bottom: 60px;
+}
+.aboutHeading h2{
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.aboutDescription{
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+.aboutContent{
+  display: flex;
+  justify-content: space-around;
+}
+.aboutText{
+  width: 40%;
+}
+.aboutText h3{
+  text-transform: capitalize;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.aboutText p{
+  font-size: 18px;
+  line-height: 30px;
+}
+.aboutText Button{
+  text-transform: uppercase;
+  margin-top: 30px;
+  background-color: darkgreen;
+  color: goldenrod;
+  font-size: 16px;
+  font-weight: 600;
+}
+.aboutSummary{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutSummary h3{
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.aboutSummary ul{
+  margin-top: 30px;
+}
+.aboutSummary li{
+  display: inline;
+  margin-right: 30px;
+  margin-bottom: 25px;
+  float: left;
+  font-size: 18px;
+  padding: 10px;
+  background-color: goldenrod;
+  border-radius: 10px;
+}
+
+/* Contact Page */
+.contactPage{
+  height: 150vh;
+  background: linear-gradient(to right, rgba(245, 245, 245, .8), rgba(245, 245, 245, .8)),
+    url(./Images/background.svg);
+  background-position: center;
+}
+
+.contactTitle{
+  width: 40vw;
+  /* margin-left: 30vw;
+  margin-top: 100px; */
+  margin: 60px 0 100px 30vw;
+  text-align: center;
+}
+.contactTitle h3{
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.contactTitle p{
+  font-size: 24px;
+}
+
+.contactForm{
+  width: 60%;
+  height: 80vh;
+  margin-left: 20%;
+  background-color: rgb(208, 208, 208);
+  display: flex;
+  align-items: center;
+}
+.contactDetails{
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.contactForm Button{
+  margin-top: 50px;
+  width: 25%;
+  height: 50px;
+  margin-left: 37.5%;
+  background-color: darkgreen;
+  color: goldenrod;
+  font-size: 20px;
+  font-weight: 600;
+}
