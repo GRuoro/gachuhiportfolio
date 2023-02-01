@@ -60,6 +60,7 @@ function About() {
                         <li>Responsive Design</li>
                         <li>Machine Learning</li>
                     </ul>
+                      {/* <iframe src={ "https://www.rammaheshwari.com/" }></iframe> */}
                 </div>
             </div>
         </section>
