@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
+
   return (
     <div>
         <navbar className="navbar">
@@ -8,12 +10,13 @@ function Navbar() {
                 <div className="userImage"></div>
                 <div className="userName">CHRIS JOHN GACHUHI</div>
             </div>
+            
             <div className="navigation">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li> <Link to="/"> Home </Link></li>
+                    <li> <Link to="/About"> About </Link></li>
+                    <li> <Link to="/Projects"> Projects </Link></li>
+                    <li> <Link to="/Contact"> Contact </Link></li>
                 </ul>
             </div>
         </navbar>

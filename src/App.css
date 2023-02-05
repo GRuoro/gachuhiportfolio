@@ -43,6 +43,15 @@
   display: inline;
   margin-right: 20px;
 }
+.navigation a{
+  text-decoration: none;
+  color: darkgreen;
+  font-weight: 500;
+}
+.navigation a:hover{
+  color: goldenrod;
+  border-radius: 5px;
+}
 
 /* HomePage Hero Section */
 .homePage{
@@ -54,7 +63,7 @@
 
 .hero{
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .socialmedia{
@@ -66,13 +75,38 @@
   align-items: center;
   margin-left: 0;
   margin-top: 15vh;
-  /* background-color: bisque; */
 }
 .github,.linkedin,.twitter,.email,.phone{
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: aquamarine;
+  overflow: hidden;
+  /* background-color: aquamarine; */
+}
+.github{
+  background-image: url(./Images/github.png);
+  background-position: center;
+  background-size: cover;
+}
+.linkedin{
+  background-image: url(./Images/linkedin.png);
+  background-position: center;
+  background-size: contain;
+}
+.twitter{
+  background-image: url(./Images/twitter.png);
+  background-position: center;
+  background-size: contain;
+}
+.email{
+  background-image: url(./Images/email.jpeg);
+  background-position: center;
+  background-size: contain;
+}
+.phone{
+  background-image: url(./Images/phone.png);
+  background-position: center;
+  background-size: contain;
 }
 
 .mainContent{
@@ -80,7 +114,6 @@
   width: 96vw;
   justify-content: center;
   align-items: center;
-  /* background-color: aqua; */
 }
 .heroTitle{
   width: 70%;
@@ -196,7 +229,7 @@
   background-color: goldenrod;
   border-radius: 10px;
 
-  -webkit-transition: .5s;
+  -webkit-transition: .3s;
 }
 .aboutSummary li:hover {
   box-shadow: 0 3px 10px gray;

@@ -2,12 +2,13 @@ import React from 'react'
 import { Button } from 'react-bootstrap'
 import Navbar from '../Components/Navbar'
 
+
 function About() {
   return (
-    <div>
+      <div>
+          
         <section className='aboutPage'>
             <Navbar/>
-            
             <div className="aboutTitle">
                 <div className="aboutHeading">
                     <h2>about me</h2>
@@ -64,6 +65,8 @@ function About() {
                 </div>
             </div>
         </section>
+        
+          
     </div>
   )
 }

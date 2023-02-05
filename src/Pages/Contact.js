@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
 
+import Navbar from '../Components/Navbar';
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
@@ -34,7 +34,8 @@ function Contact() {
                 
                 <Button>SUBMIT</Button>
             </div>
-        </div>
+          </div>
+
     </div>
   )
 }
