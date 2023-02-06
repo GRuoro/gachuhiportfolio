@@ -47,10 +47,13 @@
   text-decoration: none;
   color: darkgreen;
   font-weight: 500;
+
+  -webkit-transition: 1s;
 }
 .navigation a:hover{
   color: goldenrod;
   border-radius: 5px;
+  transition: all .3s;
 }
 
 /* HomePage Hero Section */
@@ -146,11 +149,13 @@
   font-size: 20px;
   font-weight: 600;
   border: none;
+  -webkit-transition: all .5s;
 }
 .mainContent Button:hover {
   color: gold;
   background-color: darkgreen;
   box-shadow: 0 3px 10px gray;
+  transition: all .5s;
 }
 
 /* About Page */
@@ -200,11 +205,13 @@
   color: goldenrod;
   font-size: 16px;
   font-weight: 600;
+  -webkit-transition: all .5s;
 }
 .aboutText Button:hover{
   color: gold;
   background-color: darkgreen;
   box-shadow: 0 3px 10px gray;
+  transition: all .5s;
 }
 .aboutSummary{
   width: 35%;
@@ -233,7 +240,7 @@
 }
 .aboutSummary li:hover {
   box-shadow: 0 3px 10px gray;
-  transition: all .3s ease-in;
+  transition: all .3s ease-in-out;
 }
 
 /* Contact Page */
@@ -288,10 +295,12 @@
   font-size: 20px;
   font-weight: 600;
   border: none;
+  -webkit-transition: all .3s;
 }
 
 .contactForm Button:hover{
   color: gold;
   background-color: darkgreen;
   box-shadow: 0 3px 10px gray;
+  transition: all .3s;
 }
