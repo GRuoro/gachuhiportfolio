@@ -7,6 +7,7 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 
 
 import emailjs from '@emailjs/browser';
+import swal from 'sweetalert';
 
 function Contact() {
     const emailRef = useRef()
@@ -27,6 +28,10 @@ function Contact() {
         emailjs.send('service_70o8tvl', 'template_p52oy2p', templateParams,'RRkye2MWgbsfhUjO2')
             .then(function(response) {
             console.log('SUCCESS!', response.status, response.text);
+            swal("Message Sent!", "I'll get back to you soon", "success");
+            
+                // insert FORM RESET
+                
             }, function(error) {
             console.log('FAILED...', error);
             });
